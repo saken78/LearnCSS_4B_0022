@@ -538,30 +538,38 @@ nav a.aktif::after {
   border: 1px solid #21262d;
   border-radius: 12px;
   padding: 2rem;
-  height: 400px;
   width: 350px;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.educational-history-info-item p {
-  margin-bottom: 2rem;
+.school {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
 }
 
-.smk-logo img {
-  width: 300px;
-  height: 300px;
+.major {
+  font-size: 0.9rem;
+  color: #3a7ce0;
+}
+
+.period {
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+.logo {
+  margin-top: auto;
+}
+
+.logo img {
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #21262d;
-  transition: border-color 0.3s;
-}
-
-.uisi-logo img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #21262d;
-  transition: border-color 0.3s;
 }
 
 #experiences {
